@@ -18,7 +18,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 class Reporter(private val token: String) : LocationListener, SensorEventListener{
     override fun onLocationChanged(location: Location) {
-        var userInfoContainer = UserInfoContainer(location, null, token)
+        var userInfoContainer = UserInfoContainer(token)
         var builder: Retrofit.Builder = Retrofit.Builder().baseUrl("http://appsecclass.report").addConverterFactory(
             GsonConverterFactory.create())
         var retrofit: Retrofit = builder.build()
@@ -43,7 +43,7 @@ class Reporter(private val token: String) : LocationListener, SensorEventListene
 
     override fun onSensorChanged(event: SensorEvent?) {
         if (event != null) {
-            var userInfoContainer = UserInfoContainer(null, event.values[0].toString(), token)
+            var userInfoContainer = UserInfoContainer(token)
             var builder: Retrofit.Builder = Retrofit.Builder().baseUrl("http://appsecclass.report").addConverterFactory(
                 GsonConverterFactory.create())
             var retrofit: Retrofit = builder.build()

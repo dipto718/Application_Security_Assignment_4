@@ -73,17 +73,17 @@ ADDED from C:\Users\Dipto\Application_Security_Assignment_4\Assignment4App\Giftc
 	android:name
 		ADDED from C:\Users\Dipto\Application_Security_Assignment_4\Assignment4App\GiftcardSite\app\src\main\AndroidManifest.xml:6:22-64
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from C:\Users\Dipto\Application_Security_Assignment_4\Assignment4App\GiftcardSite\app\src\main\AndroidManifest.xml:7:5-78
+ADDED from C:\Users\Dipto\Application_Security_Assignment_4\Assignment4App\GiftcardSite\app\src\main\AndroidManifest.xml:7:7-80
 	android:name
-		ADDED from C:\Users\Dipto\Application_Security_Assignment_4\Assignment4App\GiftcardSite\app\src\main\AndroidManifest.xml:7:22-76
+		ADDED from C:\Users\Dipto\Application_Security_Assignment_4\Assignment4App\GiftcardSite\app\src\main\AndroidManifest.xml:7:24-78
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from C:\Users\Dipto\Application_Security_Assignment_4\Assignment4App\GiftcardSite\app\src\main\AndroidManifest.xml:8:5-80
+ADDED from C:\Users\Dipto\Application_Security_Assignment_4\Assignment4App\GiftcardSite\app\src\main\AndroidManifest.xml:8:7-82
 	android:name
-		ADDED from C:\Users\Dipto\Application_Security_Assignment_4\Assignment4App\GiftcardSite\app\src\main\AndroidManifest.xml:8:22-78
+		ADDED from C:\Users\Dipto\Application_Security_Assignment_4\Assignment4App\GiftcardSite\app\src\main\AndroidManifest.xml:8:24-80
 uses-permission#android.permission.ACCESS_MOCK_LOCATION
-ADDED from C:\Users\Dipto\Application_Security_Assignment_4\Assignment4App\GiftcardSite\app\src\main\AndroidManifest.xml:10:5-78
+ADDED from C:\Users\Dipto\Application_Security_Assignment_4\Assignment4App\GiftcardSite\app\src\main\AndroidManifest.xml:10:7-80
 	android:name
-		ADDED from C:\Users\Dipto\Application_Security_Assignment_4\Assignment4App\GiftcardSite\app\src\main\AndroidManifest.xml:10:22-76
+		ADDED from C:\Users\Dipto\Application_Security_Assignment_4\Assignment4App\GiftcardSite\app\src\main\AndroidManifest.xml:10:24-78
 application
 ADDED from C:\Users\Dipto\Application_Security_Assignment_4\Assignment4App\GiftcardSite\app\src\main\AndroidManifest.xml:14:5-88:19
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\Dipto\.gradle\caches\transforms-2\files-2.1\e384bf6580860a38b194ae77aa3fbfd7\material-1.1.0\AndroidManifest.xml:22:5-20
