@@ -1,0 +1,2 @@
+com/example/giftcardsite/BuildConfig.java
+ com.example.giftcardsite.BuildConfig

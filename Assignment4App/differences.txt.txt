@@ -1,0 +1,21 @@
+Questions:
+
+The two types of intents are explicit and implicit for
+which explicit is the more secure type since it specifies
+the android component to be used while the other doesn't.
+For instance, lines 69 to 73 of SecondFragment.kt is an
+implicit intent while lines 68 to 70 of ThirdFragment.kt
+is an explicit intent. As a result, the intent in
+ThirdFragment.kt is more secure one.
+
+Fix:
+
+NOTE: CONFIRM THAT MY FIX IS GOOD
+
+This therefore means that the intent in SecondFragment.kt
+is not correct. I then fixed this intent by modifying
+SecondFragment.kt to specify what it actually wants to
+perform the activity since before the fix the app would
+go to a 200 ok webpage when registering. Now after the fix
+it instead brings the user to the giftcard page so that they
+can buy a gift card immediatly after registering.
