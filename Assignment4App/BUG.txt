@@ -1,0 +1,10 @@
+
+Currently in the CardInterface.kt file the useCard function for the interface takes
+both the card number and the authorization token and reflects that when it is 
+actually called in UseCard.kt. However, the api (@PUT("/api/use/{card_number}")) that the 
+function calls on the backend to use a card takes only the card number. As a result, this
+allows a malicious user to use a someonelse's card since the backend never authorizes
+whether it was actually them that used the card or not and only ever takes the card_number
+as input. Therefore, this bug can be resolved by just having the backend use api take
+the authorization token as well and just verify on the backend whether this token was
+used to buy the gift card or not before allowing it to be used.
