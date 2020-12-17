@@ -6,7 +6,8 @@ the android component to be used while the other doesn't.
 For instance, lines 69 to 73 of SecondFragment.kt is an
 implicit intent while lines 68 to 70 of ThirdFragment.kt
 is an explicit intent. As a result, the intent in
-ThirdFragment.kt is more secure one.
+ThirdFragment.kt is the more secure one and the
+proper way to use an intent
 
 Fix:
 
