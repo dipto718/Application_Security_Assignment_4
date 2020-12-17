@@ -11,8 +11,6 @@ proper way to use an intent
 
 Fix:
 
-NOTE: CONFIRM THAT MY FIX IS GOOD
-
 This therefore means that the intent in SecondFragment.kt
 is not correct. I then fixed this intent by modifying
 SecondFragment.kt to specify what it actually wants to
